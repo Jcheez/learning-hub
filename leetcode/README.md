@@ -42,6 +42,8 @@ print(instance.twoSum([2,5,7,9], 12))
 | 21. Merge Two Sorted Lists | [Code](https://github.com/Jcheez/learning-hub/blob/main/leetcode/java/0021.%20Merge%20Two%20Sorted%20Lists.java) | [Code](https://github.com/Jcheez/learning-hub/blob/main/leetcode/python/0021.%20Merge%20Two%20Sorted%20Lists.py) |
 | 23. Merge k Sorted Lists | [Code](https://github.com/Jcheez/learning-hub/blob/main/leetcode/java/0023.%20Merge%20k%20Sorted%20Lists.java) | TBC |
 | 33. Search in Rotated Sorted Array | [Code](https://github.com/Jcheez/learning-hub/blob/main/leetcode/java/0033.%20Search%20in%20Rotated%20Sorted%20Array.java) | [Code](https://github.com/Jcheez/learning-hub/blob/main/leetcode/python/0033.%20Search%20in%20Rotated%20Sorted%20Array.py) |
+| 39. Combination Sum | [Code](https://github.com/Jcheez/learning-hub/blob/main/leetcode/java/0039.%20Combination%20Sum.java) | TBC |
+| 46. Permutations | [Code](https://github.com/Jcheez/learning-hub/blob/main/leetcode/java/0046.%20Permutations.java) | TBC |
 | 49. Group Anagrams | [Code](https://github.com/Jcheez/learning-hub/blob/main/leetcode/java/0049.%20Group%20Anagrams.java) | [Code](https://github.com/Jcheez/learning-hub/blob/main/leetcode/python/0049.%20Group%20Anagrams.py)
 | 53. Maximum Subarray | [Code](https://github.com/Jcheez/learning-hub/blob/main/leetcode/java/0053.%20Maximum%20Subarray.java) | [Code](https://github.com/Jcheez/learning-hub/blob/main/leetcode/python/0053.%20Maximum%20Subarray.py) |
 | 56. Merge Intervals | [Code](https://github.com/Jcheez/learning-hub/blob/main/leetcode/java/0056.%20Merge%20Intervals.java) | [Code](https://github.com/Jcheez/learning-hub/blob/main/leetcode/python/0056.%20Merge%20Intervals.py) |
