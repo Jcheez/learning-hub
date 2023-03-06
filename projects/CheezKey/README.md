@@ -1,0 +1,1 @@
+CheezKey is a password storage manager
