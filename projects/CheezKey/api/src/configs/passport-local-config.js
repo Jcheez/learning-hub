@@ -7,14 +7,14 @@ const User = require("../models/user")
 const authenticateUser = async (email, password , done) => {
     const user = await User.findOne({email: email})
     if (user === null) {
-        return done(null, false, { err: "Email not registered" })
+        return done(null, false, { err: {email: "Email not registered"} })
     }
 
     try {
         if (await bcrypt.compare(password, user.password)) {
             return done(null, user)
         } else {
-            return done(null, false, {err: 'Password incorrect'})
+            return done(null, false, {err: {password: 'Password incorrect'}})
         }
     } catch (err) {
         return done(err)

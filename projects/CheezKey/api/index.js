@@ -21,6 +21,13 @@ mongoose.connect(DB_URL).then(() => {
 const initailizePassport = require('./src/configs/passport-local-config')
 initailizePassport(passport)
 
+// CORS configuration
+app.use(cors({
+    origin: process.env.FRONT_END,
+    methods: ['GET','POST','DELETE','UPDATE','PUT','PATCH'],
+    credentials: true
+}))
+
 // req.body configuration
 app.use(express.json())
 
@@ -33,7 +40,11 @@ app.use(session({
         mongoUrl: DB_URL,
         ttl: 24*60*60,
         autoRemove: 'native'
-    })
+    }),
+    cookie: {
+        httpOnly: false,
+        maxAge: 1000*24*60*60,
+    }
 }))
 
 // Initialise Passport.js

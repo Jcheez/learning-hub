@@ -42,7 +42,7 @@ const signin = (req, res, next) => {
                 if (err) { 
                     return next(err)
                 } else {
-                    res.status(200).json({ message: "Login Success"})
+                    res.status(200).json({ message: "Login Success", expiry: Date.now() + 1000*24*60*60})
                     next()
                 }
             })
